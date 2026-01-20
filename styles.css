@@ -36,7 +36,7 @@ body {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 26px;
-  background: #25D366;
+  background: #E1306C;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
@@ -73,7 +73,7 @@ h2 {
 /* CARDS */
 .card {
   background: #fff;
-  padding: 25px;
+  padding: 20px;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
@@ -81,19 +81,21 @@ h2 {
 .card img {
   width: 100%;
   border-radius: 8px;
-  margin-bottom: 15px;
 }
 
-.card h3 {
-  margin-top: 0;
+/* SUBHEADINGS */
+.subheading {
+  margin: 50px 0 20px;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-.card a {
-  display: inline-block;
-  margin-top: 10px;
-  color: #0066cc;
-  text-decoration: none;
-  font-weight: bold;
+/* NOTE */
+.note {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
 }
 
 /* CONTACT */
